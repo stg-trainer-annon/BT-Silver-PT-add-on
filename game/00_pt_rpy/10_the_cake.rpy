@@ -1,0 +1,238 @@
+label the_cake:
+    hide blkfade
+    show blkfade
+    pause 1
+    show image "market.jpg" behind blkfade
+    centered "{size=+5}{color=#cbcbcb}One week later.{/color}{/size}\n\n
+              {size=+5}{color=#cbcbcb}The market square.{/color}{/size}"
+    play music "music/Marketplace(short).mp3" fadein 1 fadeout 1 #MARKET
+    hide blkfade with Dissolve(2)
+    show ctc7 at right
+    pause 
+    hide ctc7
+    show image "04_pt/slavem/bld.png" with d5
+    m "Are you sure we can trust him?"
+    ir[20] "Don't you worry about a thing."
+    ir[21] "As long as he gets paid his word is as good as mine."
+    m "Yes... Money is another concern..."
+    m "I need to figure out a sure way to improve our financial situation..."
+    ir[22] "I may have an idea 'bout that..."
+    m "Really? I'm listening..."
+    ir[24] "Alright, but before you say \"no\" just hear me out..."
+    m "I promise. What is it?"
+    ir[23] "..............."
+    ir[20] "What if we mug the tax collector?"
+    g4 "What? No! No, mugging!"
+    ir[24] "Why not?"
+    ir[24] "You afraid he will be able to recognize us afterwards?"
+    ir[25] "I could just slit his throat then!"
+    m "Or we could just wear masks?"
+    ir[23] "Em... Sure, that would work too..."
+    ir[22] "So, you're up for it then?"
+    g4 "Absolutely not!"
+    m "We need to find a legal way to come into the money..."
+    ir[23] "Well eh-excuse me, then."
+    ir[23] "\"Legal\" is outside of my area of expertise."
+    
+    who2 "Polly wants a cracker!"
+    with hpunch
+    ir[27] "!!!"
+    ir[28] "Stupid bird startled me..."
+    par "Polly wants a cracker!"
+    ir[28] "Would you shut up!?"
+    ir[28] "Let's keep going, old man. We need to--"
+    ir[19] "Old man?"
+    stop music fadeout 5
+    m ".................."
+    par "Polly wants a cracker!"
+    play music "music/tension2.mp3" fadein 1 fadeout 1 #TENSION2 (MUD)
+    m "That...{w} voice..."
+    ir[29] "Old man? What's the matter?"
+    m ".............."
+    with hpunch
+    g4 "{size=+7}Iago??!{/size}"
+    par "Polly wants a cra--"
+    with hpunch
+    ia03 "{size=+7}Genie?!{/size}"
+    g4 "You wretched, godless bird! You're alive?!"
+    ia03 "Ha! No thanks to you!"
+    ir[30] "H-hey, w-what's with that parrot?"
+    ia03 "I'm an ancient evil spirit!"
+    ia03 "I possessed this mortal bird's body to walk the earth once more!"
+    ia03 "Bugger off, wench!"
+    ir[27] "Eeeeek!"
+    ir[27] "T-the d-demon bird..."
+    ir[31] "Old man, quick, we need to kill it! Now!"
+    ia03 "What are you, stupid?"
+    ia03 "Everyone knows that Genies can't kill!"
+    g4 "Y-you remember who I am? But that's impossible..."
+    g4 "How did you..."
+    show image "08_ending/cake01.png" with blackfade
+    ia "That's a long story..."
+    g3 "..................."
+    iri ".................."
+    show ctc7 at right
+    pause 
+    hide ctc7
+    show blkfade with Dissolve(3)
+    pause 1
+    a2 "To Be Continued?"
+    pause 2
+    return
+    
+    
+    
+    
+    
+###NO_NEED    
+#    g3 "Tsk... Let's just go, Iris, he isn't worth it."
+#    ia "What? No, don't you dare leave me here like this, you big blue lout!"
+#    g3 "Genies can't kill... But I'm just a human now..."
+#    g3 "And humans are totally fine with killing things!"
+#    g3 "So don't tempt me Iago!"
+#    g3 "I spare you life and that's more than you deserve after what you've done!"
+#    ia "After what {size=+7}I{/size} have done?!!"
+#    ia "Oh, that's right! I'm so sorry that I refused to do my job and grant my master his final wish!"
+#    ia "I decided to rewrite this world's entire freaking history instead!"
+#    ia "Oh, no, wait... {size=+7}SO IT WAS YOU WHO DID THAT!{/size}"
+#    g3 "Oh, no, don't you blame this on me, you godless parrot!"
+#    g3 "It was your wretched idea to turn me into a human without granting me my freedom!"
+#    g3 "It was {size=+7}YOU{/sise} who suggested that to Jafar!"
+#    ia "Oh, right... about that..."
+#    ia "To be perfectly honest I can barely remember doing that at all..."
+#    ia "I wasn't myself..."
+#    ia "It felt as if though I was being controlled be some outside force..."
+#    ia "Almost if I were..."
+#    iri "Possessed?"
+#    ia "Yeah, that's the word!"
+#    iri "Demon-bird! I knew it! Smash it's beak in, old man! Hurry!"
+#    g3 "Tsk... Demon-bird? More like gutless-liar-bird."
+#    g3 "He will tell you anything just to save his own feathers..."
+#    g3 "If not for you, you damn parrot, nothing of this would have happened..."
+#    g3 "...............nothing."
+#    g3 "I woudn't have to turn Princess Jasmine into a shameless whore..."
+#    g3 "and..."
+#    g3 ".....Aladdin might've still been alive..."
+#    ia "Oh, but Aladdin {size=+5}IS{/size} alive, you idiot!"
+#    g3 "{size=+7}WHAT?!{/size}"
+#    ia "Yes, yes... Not only your beloved urchin is alive and well..."
+#    ia "...He is also the reason I ended up in this cage!"
+#    g3 "Oh, Aladdin, buddy..."
+#    iri "???"
+#    ia "Don't get your hopes up, though. He doesn't remember squat! Just like everybody else."
+#    ia "I went to see Jafar first, but you really did a good number on him, and he wouldn't even listen to me."
+#    ia "After the royal guards chased me away like some common pigeon, I decided to go looking for you or Aladdin, or anybody who would even remember my name..."
+#    ia "It took ma a while, but I tracked him down..."
+#    ia "Him and his nasty fleebag of a monkey..."
+#    ia "For some reason I was almost glad to see him being alright..."
+#    ia "You wanna know what his reaction was?"
+#    ia "\"Oh! Talking bird! Abu grab it!\""
+#    ia "Caught me completely off guard."
+#    ia "Next thing I know I'm in this cage, begging for food..."
+#    ia "Tsk....."
+#    ia "Listen, you gotta let me out..."
+#    ia "I'll do anything... I could talk to him if you want..."
+#    g3 "Aladdin, buddy... You're alright..."
+#    ia "Yes, yes, but like I said, you wiped his brain clean, just like the rest of them..."
+#    g3 "..................."
+#    g3 "Wait a second!"
+#    g3 "How come you still remember everything?!"
+#    ia "What can I say, I am very resilient." 
+#    g3 "No, that's not it... Nothing could resist my magic..."
+#    g3 "What did you do?!"
+#    ia "Well, alright, I'll tell you..."
+#    ia "I managed to hide, right before your \"personality crisis\" started..."
+#    g3 "You what? B-but... where could you possibly..."
+#    ia "heh..."
+#    g3 "!!!"
+#    g3 "MY LAMP!!!"
+#    ia "Bingo!"
+#    ia "I gotta say, your living space really is \"itty-bitty\", but I managed to squeeze in and shut the lid just in time."
+#    g3 "Where is it? Where is it now?!"
+#    g3 "Where is my lamp! Tell me!!!"
+#    ia "I can do better: I can take you to where I hid it."
+#    g3 "Merchant! Hey, merchant, how much for this bird?"
+#    iri ".....Old man? What is going on?"
+#    g3 "I'll explain later, Iris."
+#    g3 "Merchant! Hey, merchant!"
+#    iri "No, please, don't buy the demon-bird, it will bring us bad luck!"
+#    iri "If you need a lamp I will bring you one from the tavern."
+#    ia "Oh, but this is not just any old lamp, girl..."
+#    iri "No! Don't talk to me, demon!"
+#    ia "Although you should know that these days it does look like an ordinary lamp..."
+#    ia "I mean I even tried to rub it but nothing happened..."
+#    g3 "Of course. And nothing will happen..."
+#    g3 "I squeezed every last drop of power out of it..."
+#    iri "???"
+#    g3 "But it will recharge in time..."
+#    ia "Seriously?! How soon?"
+#    g3 "Hard to say... A million years, maybe two."
+#    ia "Two million years? We all will be dust by then!"
+#    g3 "Yes I know..."
+#    g3 "But the bond between the genie and his lamp is indestructible and everlasting."
+#    g3 "OUCH!"
+#    g3 "Iris? What are you doing?!"
+#    g3 "Ouch! Ouch! Stop it Iris!"
+#    iri "The evil spirit makes you say weird things!"
+#    iri "Leave this old man's body at once, evil one!"
+#    g3 "Ouch! Iris, stop hitting me! It's me!"
+#    iri "Old man? Are you back?"
+#    g3 "I didn't go anywhere..."
+#    iri "*low growl*"
+#    iri "Somebody needs to explain to me what is going on here, like right now!"
+#    g3 "If what Iago is saying is true and my lamp could still be recovered, then..."
+#    iri "?!!"
+#    g3 "Yes, I know, what you're thinking: magic lamp without any magic left in it? What good is it?"
+#    iri "This is {size=+7}SO NOT{/size} what I was thinking!"
+#    g3 "If I were to lay my hands on it..."
+#    g3 "Maybe I could use the leftovers of my powers to bring Aladdin's memory back somehow..."
+#    ia "You think that's a good idea?"
+#    ia "I don't know if you know this, but Princess Jasmine is not what she used to be..."
+#    ia "Word on the street is she is working in a brothel now and spreads her legs for everyone who has a couple of gold coins."
+#    ia "How do you think our street rat will react to this news?"
+#    g3 "Good point..."
+#    iri "What are you talking about?"
+#    iri "Is the demon-bird possessing you again?"
+#    g3 "We need all the help we can get, don't you think so, Iris?"
+#    iri "Yes, but not from the demons!"
+#    d3 "What? No, I'm talking about my lamp."
+#    g3 "So, Iago, you say you can take us to it?"
+#    ia "Yes, I--"
+#    iri "No, old man, don't buy the demon-bird, please!"
+#    g3 "Iris? Oh, Iago is not a demon... He is mischievous and spiteful, but that's just how he is."
+#    iri "Oh yeah? How come it can talk then?"
+#    ia "I'm a parrot, that's what we do."
+#    iri "You don't sound like a parrot."
+#    ia "No? How about now?"
+#    ia "Polly wants a cracker! Polly wants a cracker!"
+#    iri "Make it stop, it's freaking me out!"
+#    ia "Listen lady, stop your hysterics, alright! I'm just a parrot, I swear."
+#    iri "That's exactly what a demon-bird would say too!"
+#    ia "Genie, old pal, do we really have time for this?"
+#    ia "I wasn't sure if your lamp is worth anything anymore, so I didn't hide it that well, you know..."
+#    ia "The more time we waste here..."
+#    g3 "Right, right..."
+#    g3 "Merchant, hey merchant, how much for this parrot?"
+#    iri "This bird is a bad news... "
+#    iri "You'll see..."
+#    g3 "You're probably right, Iris, but I need my lamp..."
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    g3 "Maybe I could use it's power to bring Aladdin's memory back somehow..."
+    ia "You think that's a good idea?"
+    ia "I don't know if you know this, but Princess Jasmine is not what she used to be..."
+    ia "Word on the street is she is working in a brothel now and spreads her legs for everyone who has a couple of gold coins."
+    ia "How do you think our street rat will react to this news?"
+    g3 "Good point..."
