@@ -17,6 +17,23 @@ image ext09 = "04_pt/extras/ext09.jpg"
 image ext10 = "04_pt/extras/ext10.jpg"
 image ext11 = "04_pt/extras/ext11.jpg"
 
+image q1 = "04_pt/qchecklist/q1.png"
+image q2 = "04_pt/qchecklist/q2.png"
+image q3 = "04_pt/qchecklist/q3.png"
+image q4 = "04_pt/qchecklist/q4.png"
+image q5 = "04_pt/qchecklist/q5.png"
+image q6 = "04_pt/qchecklist/q6.png"
+image q7 = "04_pt/qchecklist/q7.png"
+image q8 = "04_pt/qchecklist/q8.png"
+image q9 = "04_pt/qchecklist/q9.png"
+image q10 = "04_pt/qchecklist/q10.png"
+image q11 = "04_pt/qchecklist/q11.png"
+image q12 = "04_pt/qchecklist/q12.png"
+image q13 = "04_pt/qchecklist/q13.png"
+image qbg = "04_pt/qchecklist/qbg.png"
+image bld2 = "04_pt/slavem/bld2.png"
+image bld = "04_pt/slavem/bld.png"
+
 image slbg = "04_pt/slavem/mainbg00.jpg"
 
 
